@@ -4,13 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Translator</title>
-    <script text="text/javascript" src="app.js"></script>
+    <style>
+        #outputText{
+            border:1px solid black;
+            height:10vh;
+            width:80%;
+        }
+    </style>
 </head>
 <body>
 
     <h1>translator</h1>
-    <textarea id="inputText"> enter your input text</textarea>
-    <button>Translate</button>
-    <textarea id="outputText"></textarea>
+    <textarea id="inputText" placeholder="enter your text here"></textarea>
+    <button id="btn">Translate</button>
+   
+    output:
+    <div id="outputText"></div>
+
+
+    <script src="app.js" text="text/javascript" ></script>
 </body>
 </html>
