@@ -53,8 +53,8 @@ textarea{
 
 footer{
     background-color: var(--primary-color);
-    border-top-left-radius:1rem ;
-    border-top-right-radius: 1rem;
+    border-top-left-radius:4rem ;
+    border-top-right-radius: 4rem;
    
     padding:1rem 1rem;
     margin:auto;
@@ -63,10 +63,20 @@ footer{
 
 
 
+.ul-list{
+    text-decoration: none;
+    
+}
+.list-ele{
+    display: inline;
+}
 
 
+.icon{
+    width:30px;
+    padding: 0rem 1rem;
 
-
+}
 
 
 
