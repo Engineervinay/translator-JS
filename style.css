@@ -122,6 +122,6 @@ footer{
   }
   .button-translate:hover{
     color:white;
-    background-color:rgb(42, 238, 107);
+    background-color:var(--primary-color);
     border-radius: 0rem;
   }
